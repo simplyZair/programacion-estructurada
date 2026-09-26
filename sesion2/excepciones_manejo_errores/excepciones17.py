@@ -5,4 +5,5 @@ try:
     print(empleados[clave])
 except KeyError:
     print("Empleado no encontrado.")
- 
+
+#print(empleados.get(clave, "Empleado no encontrado."))

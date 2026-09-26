@@ -1,12 +1,14 @@
 ventas = []
+
 try:
-    for i in range(1, 4):
-        venta = float(input(f"Venta {i}: "))
-        ventas.append(venta)
-    promedio = sum(ventas) / len(ventas)
-    print(f"Promedio: {promedio}")
+    venta1 = float(input("Venta 1: "))
+    venta2 = float(input("Venta 2: "))
+    venta3 = float(input("Venta 3: "))
+    promedio = (venta1 + venta2 + venta3) / 3
+    print(f"Promedio de ventas: {promedio}")
 except ValueError:
-    print("Debe ingresar solo números.")
+    print("Debe ingresar un número válido para las ventas.")
 except ZeroDivisionError:
-    print("No hay datos para calcular el promedio.")
- 
+    print("No se puede dividir entre cero.")
+
+    
