@@ -1,0 +1,7 @@
+print("Complete con sus datos personales")
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+carrera = str(input("Ingrese su carrera: "))
+print("Su nombre es ", nombre)
+print("Su edad es ", edad)
+print("Su carrera es ", carrera)
