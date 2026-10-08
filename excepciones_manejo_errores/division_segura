@@ -1,0 +1,10 @@
+try:
+    a = float(input("Dividendo: "))
+    b = float(input("Divisor: "))
+    resultado = a / b
+except ValueError:
+    print("Ingrese valores numéricos.")
+except ZeroDivisionError:
+    print("El divisor no puede ser cero.")
+else:
+    print("Resultado:", resultado)

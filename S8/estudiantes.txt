@@ -1,0 +1,14 @@
+12301450
+Luis Fernando Gonzalez
+96.56
+True
+Ingenieria en Sistemas
+100
+12301451
+
+12301451
+Ernesto Javier Jarquin Montes
+85.75
+True
+Veterinaria
+90

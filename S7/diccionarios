@@ -1,0 +1,11 @@
+dispositivo = {
+    "modelo": "Router AX3000",
+    "ip": "192.168.1.1",
+    "estado": "activo",
+    "os": "Linux"
+}
+
+print ("Modelo del dispositivo:", dispositivo["modelo"])
+
+dispositivo["estado"] = "inactivo"
+print ("Nuevo estado del dispositivo:", dispositivo["estado"])
